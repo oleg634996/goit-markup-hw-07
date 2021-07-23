@@ -1,0 +1,39 @@
+.section {
+  padding: 95px 0px;
+}
+.section__item {
+  display: flex;
+}
+.section__list {
+  width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.section__icon {
+  width: 270px;
+  height: 130px;
+  background-color: #f5f4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.section__svg {
+  width: 70px;
+  height: 70px;
+}
+
+.list__title {
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--color_title);
+  margin-bottom: 10px;
+}
+.list__text {
+  font-weight: normal;
+  line-height: 1.74;
+  color: var(--color_grey);
+}
